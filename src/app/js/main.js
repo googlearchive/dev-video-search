@@ -59,7 +59,13 @@ var transcriptStyle = '<style>' +
   'span.speaker {color: black; font-weight: 900;}\n' +
   '</style>\n\n';
 
-var googleTranslate = '<div id="google_translate_element"></div><script>function googleTranslateElementInit() {new google.translate.TranslateElement({pageLanguage: \'en\', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: \'UA-33848682-1\'}, \'google_translate_element\');}; console.log(\'>>>>>>>>>fooo\');</script><script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>';
+var googleTranslate = '<div id="google_translate_element"></div><script>' +
+  'function googleTranslateElementInit() {new google.translate.' +
+  'TranslateElement({pageLanguage: \'en\', layout: google.translate.' +
+  'TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: ' +
+  '\'UA-33848682-1\'},\'google_translate_element\');};);</script><script src=' +
+  '"https://translate.google.com/translate_a/element.js?cb=' +
+  'googleTranslateElementInit"></script>';
 
 var startTime;
 

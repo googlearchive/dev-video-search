@@ -1,7 +1,9 @@
 {
   "adjoining-classes": false,
   "box-model": false,
+  "font-sizes": false,
   "ids": false,
+  "important": false,
   "known-properties": false,
   "overqualified-elements": false,
   "unique-headings": false

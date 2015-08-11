@@ -280,9 +280,9 @@ function getTranscript(index, useAlternativeUrl) {
   }
 }
 
-function handleTranscript(error, response, body, index, transcriptUrl) {
+function handleTranscript(error, response, body, index, transcriptUrl) { // jshint ignore:line
   var video = videos[index];
-  if (error /* || (response && response.statusCode !== 200) */ ) {
+  if (error /* || (response && response.statusCode !== 200) */) {
     console.log('Retrying to get transcript for ' +
       video.id + ' following error: ' + error);
     // TODO: limit retries
@@ -351,7 +351,7 @@ function tweakTranscriptText(body) {
     handleSpeakerMatch); // build array of speakers
 }
 
-function handleSpeakerMatch(match, submatch1) {
+function handleSpeakerMatch(match, submatch1) { // jshint ignore:line
   // correct and capitalize speaker names (Fred Nerk not FRED NERK)
   var speaker = tweakName(submatch1);
   if (speakers.indexOf(speaker) === -1 && isSpeakerAllowed(speaker)) {
@@ -441,7 +441,7 @@ function requestInsert(options) {
   });
 }
 
-function handleBulkInsert(error, response, body, options) {
+function handleBulkInsert(error, response, body, options) { // jshint ignore:line
   if (error || !body.length) {
     console.log('Bulk insert error: ', error);
     if (body) {

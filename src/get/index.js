@@ -318,7 +318,9 @@ function respondToClient(body, customUrl) {
   }
 
   var params = {
+    //jscs:disable
     totalResults: bodyObject['total_rows'], // jshint ignore:line
+    //jscs:enable
     resultsPerPage: SEARCHLIMIT,
     bookmark: bodyObject.bookmark,
     videos: videos

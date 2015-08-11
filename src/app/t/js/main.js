@@ -78,7 +78,7 @@ function handleTranscriptRequest(results) {
       containerDiv.appendChild(h2);
     }
     var iframe = document.createElement('iframe');
-    let iframeId = 'yt' + videoId;
+    let iframeId = 'yt' + videoId; // jshint ignore:line
     iframe.id = iframeId;
     iframe.src = 'http://www.youtube.com/embed/' +
     videoId + '?enablejsapi=1&html5=1';
@@ -123,7 +123,7 @@ function handleIframeLoad(video, iframeId) {
   player.time = 0;
   video.player = player;
   // TODO: something better — seems to need setup time :^\
-  setTimeout(function(){
+  setTimeout(function() {
     initPolling(video);
   }, 1000);
 }
@@ -132,10 +132,10 @@ function handleIframeLoad(video, iframeId) {
 //   console.log('>>>>>>>> ready');
 // }
 
-function initPolling(video){
+function initPolling(video) {
   var player = video.player;
   var startTimes = video.startTimes;
-  setInterval(function(){
+  setInterval(function() {
     var currentTime = player.getCurrentTime();
     if (video.currentTime === currentTime) {
       return;
@@ -160,9 +160,5 @@ function addTranscriptClickHandler(span, videoId) {
   span.title = start;
   span.onclick = function() {
     videos[videoId].player.seekTo(Math.round(start));
-      // tellPlayer(iframe, 'seekTo', [start]);
-      // tellPlayer(iframe, 'playVideo');
-    };
-  }
-
-
+  };
+}

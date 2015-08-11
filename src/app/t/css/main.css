@@ -1,7 +1,3 @@
-* {
-  font-family: Roboto, sans-serif;
-}
-
 a {
   color: #77aaff;
 }
@@ -15,6 +11,7 @@ a.video {
 }
 
 body {
+  font-family: Roboto Condensed;
   padding: 2em;
 }
 
@@ -44,7 +41,7 @@ h2 {
 
 p {
   color: #444;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: 200;
   line-height: 1.7em;
   margin: 0;

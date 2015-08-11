@@ -1,0 +1,32 @@
+{
+    "name": "dev-video-search",
+    "version": "1.0.0",
+    "description": "Prototype API and sample app for searching Google Developer videos",
+    "keywords": [
+        "YouTube",
+        "Android Developers",
+        "Chrome Developers",
+        "Google Developers"
+    ],
+    "homepage": "https://github.com/GoogleChrome/dev-video-search",
+    "bugs": {
+        "url": "https://github.com/GoogleChrome/dev-video-search/issues"
+    },
+    "license": "Apache 2.0",
+    "author": "Google",
+    "main": "Gruntfile.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/GoogleChrome/dev-video-search.git"
+    },
+    "scripts": {},
+    "devDependencies": {
+        "grunt": "^0.4.5",
+        "grunt-cli": ">=0.1.9",
+        "grunt-contrib-csslint": ">=0.3.1",
+        "grunt-contrib-jshint": "^0.10.0",
+        "grunt-githooks": "^0.3.1",
+        "grunt-htmlhint": ">=0.4.1",
+        "grunt-jscs": ">=0.8.1"
+    }
+}

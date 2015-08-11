@@ -10,7 +10,7 @@ a.download {
   width: 72px;
   position: relative;
   z-index: 1;
-  height: 0px;
+  height: 0;
 }
 a {
   color: #4183C4;
@@ -148,7 +148,7 @@ details.matches div {
   font-size: 0.8em;
   line-height: 1.3em;
   margin: 0 0 0.8em 0;
-  padding: 0px 0 0 4.1em;
+  padding: 0 0 0 4.1em;
   text-indent: -2em;
   /* position: relative; */
 }
@@ -207,9 +207,6 @@ h2 {
   font-weight: 500;
   line-height: 1.5em;
   margin: 0 0 0.5em 0;
-}
-.transcriptView h2 {
-  margin: 0 0 2em 0;
 }
 html {
   overflow-y: scroll;
@@ -329,9 +326,6 @@ span.inputLabel {
 details.matches span:hover {
   color: #cf402f;
 }
-.matches span[data-start] {
-  /* position: absolute; */
-}
 .speakers span {
   cursor: pointer;
 }
@@ -360,7 +354,6 @@ summary {
   font-size: 0.8em;
   font-weight: 500;
   line-height: 1.2em;
-  outline: none;
   margin: 0 0 1em 0;
 }
 #searchOptions summary {
@@ -379,7 +372,7 @@ video {
     font-size:1em;
     font-weight: 600;
     left: 100px;
-    top: 0px;
+    top: 0;
     width: 6em;
     z-index: 1;
   }
@@ -407,7 +400,7 @@ video {
     border: none;
     font-size: 1.2em;
     margin: 0 0 1.5em 0;
-    padding: 0px;
+    padding: 0;
   }
   h2 {
     font-size: 1em;
