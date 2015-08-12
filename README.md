@@ -143,7 +143,7 @@ a CouchDB database at [cloudant.com](https://cloudant.com/).
 
 ### Why didn't you use Firebase?
 
-Cloudant has Lucene search built in, and is based on CouchDB, which is easy to use from Node apps.
+Cloudant has Lucene search built in, and is based on CouchDB, which is easy to use from Node.
 
 Firebase can now be used with Elasticsearch, but at the start of the project required extra installation.
 
@@ -224,7 +224,8 @@ and [regex101.com](https://regex101.com/) were very useful.
 * Better Node socket handling: a lot of the code
   is deliberately synchronous to avoid errors.
 * The shearch.me API is HTTP only as yet.
-* Firebase. When the project started it was a bit tricky to implement
+* Use the official [YouTube Captions API](https://developers.google.com/youtube/v3/guides/implementation/captions).
+* Move to Firebase. When the project started it was a bit tricky to implement
   full-text search with Firebase, so Cloudant was chosen (which has full text search built in). It's now pretty simple to use
   Firebase with ElasticSearch, so the data will be ported at some stage.
 * Database updates are done manually at the moment — mostly to avoid messing up the sample app. Easily automated.
