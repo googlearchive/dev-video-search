@@ -22,7 +22,7 @@ var httpModule = require('http');
 var requestModule = require('request');
 var urlModule = require('url');
 
-var account = 'samdutton';
+var account = process.env.cloudantaccount;
 var password = process.env.cloudant;
 
 var dbUrl = 'https://' + account + ':' + password + '@' + account +
