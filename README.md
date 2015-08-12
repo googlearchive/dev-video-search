@@ -2,7 +2,7 @@
 
 This is a prototype API and application for searching transcripts and metadata for videos from the [Google Developers](https://www.youtube.com/user/GoogleDevelopers), [Android Developers](https://www.youtube.com/user/androiddevelopers) and [Chrome Developers](https://www.youtube.com/user/ChromeDevelopers) channels.
 
-**App**: [simpl.info/s](https://simpl.info/s)
+**Application**: [simpl.info/s](https://simpl.info/s)
 
 **API**: [shearch.me?q=webrtc](http://shearch.me?q=webrtc)
 
