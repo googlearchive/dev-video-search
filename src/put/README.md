@@ -1,6 +1,6 @@
-# Get transcripts and data for Google developer videos and put them in a Cloudant database
+# Get transcripts and data, tweak, then put in a database
 
-This is a Node app to get YouTube video data and transcripts from [Google Developers](https://www.youtube.com/user/GoogleDevelopers), [Android Developers](https://www.youtube.com/user/androiddevelopers) and [Chrome Developers](https://www.youtube.com/user/ChromeDevelopers)., massage the response and put it in a CouchDB database at [cloudant.com](https://cloudant.com/).
+This is a Node app to get YouTube video data and transcripts from [Google Developers](https://www.youtube.com/user/GoogleDevelopers), [Android Developers](https://www.youtube.com/user/androiddevelopers) and [Chrome Developers](https://www.youtube.com/user/ChromeDevelopers), massage the response and put it in a CouchDB database at [cloudant.com](https://cloudant.com/).
 
 ## License
 
