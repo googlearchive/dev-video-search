@@ -6,9 +6,9 @@ This is a prototype API and application for searching transcripts and metadata f
 
 [shearch.me?q=webrtc](http://shearch.me?q=webrtc)
 
-[![Developer video search app screenshot|width=50%](https://cloud.githubusercontent.com/assets/205226/9225876/b89fc926-4103-11e5-9f8e-1250aa511fcd.png)](http://simpl.info/s)
+[![Developer video search app screenshot](https://cloud.githubusercontent.com/assets/205226/9228757/cc242c2c-4111-11e5-949d-48694eb429c5.png)](http://simpl.info/s)
 
-[![JSON response from shearch.me?q=webrtc|width=50%](https://cloud.githubusercontent.com/assets/205226/9225854/9b1fadda-4103-11e5-9d6a-e7646900571d.png)](http://shearch.me?q=webrtc)
+[![JSON response from shearch.me?q=webrtc](https://cloud.githubusercontent.com/assets/205226/9225854/9b1fadda-4103-11e5-9d6a-e7646900571d.png)](http://shearch.me?q=webrtc)
 
 For those who prefer to access information by reading text rather than watching videos, the app provides downloadable transcripts:
 
