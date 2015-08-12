@@ -20,9 +20,9 @@ For those who prefer to access information by reading text rather than watching 
 
 [simpl.info/s?t=ngBy0H\_q-GY](http://simpl.info/s/t/?id=ngBy0H_q-GY)
 
-The transcripts have Google Translate built in, so you can choose read them in a different language. Caption highlighting is synchronised with video playback — and you can tap or click on any part of a transcript to navigate through the video.
-
 [![Developer video transcript](https://cloud.githubusercontent.com/assets/205226/9225860/9fdfd516-4103-11e5-91a6-667949eaca1c.png)](http://simpl.info/s/t/?id=ngBy0H_q-GY,3i9WFgMuKHs)
+
+The transcripts have Google Translate built in, so you can choose read them in a different language. Caption highlighting is synchronised with video playback — and you can tap or click on any part of a transcript to navigate through the video.
 
 [![Google Translate French translation of developer video transcript](https://cloud.githubusercontent.com/assets/205226/9225859/9fca0b1e-4103-11e5-8ca1-aa9a5a95127e.png)](http://simpl.info/s/t/?id=ngBy0H_q-GY,3i9WFgMuKHs)
 
