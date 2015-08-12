@@ -18,12 +18,12 @@ limitations under the License.
 
 'use strict';
 
-var API_KEY = 'AIzaSyCtc9Z2prdQd40CZ6PlH004wLscSOKJ80w';
+var API_KEY = process.env.apikey;
 
 var google = require('googleapis');
 google.options({
   auth: API_KEY,
-  userId: 'dutton@google.com'
+  userId: process.env.user
 });
 
 var youtube = google.youtube('v3');
@@ -33,7 +33,7 @@ var FUDGEFACTOR = 20; // see below: YouTube Data API totalResuls is an estimate 
 var moment = require('moment');
 var request = require('request');
 
-var account = 'samdutton';
+var account = process.env.account;
 var password = process.env.cloudant;
 var dbName = 'shearch';
 var cloudantUrl = 'https://' + account + ':' + password + '@' + account +
