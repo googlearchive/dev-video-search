@@ -111,7 +111,7 @@ Get all individual values for any quantity field for any query:
 [shearch.me?speakers=reto&countall=views](http://shearch.me/?speakers=reto&countall=view)
 
 Build a chart from results (views for videos that mention 'Chrome'):
-[simpl.info/shearch/chart.html](http://simpl.info/shearch/chart.html)
+[simpl.info/shearch/chart.html](http://simpl.info/s/chart.html)
 
 
 ## The code
