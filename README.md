@@ -6,6 +6,10 @@ This is a prototype API and application for searching transcripts and metadata f
 
 **API**: [shearch.me?q=webrtc](http://shearch.me?q=webrtc)
 
+With minor tweaking the app and API can be used to build search for any YouTube channel with manually captioned videos.
+
+<br>
+
 <a href="http://simpl.info/s"><img src="https://cloud.githubusercontent.com/assets/205226/9225876/b89fc926-4103-11e5-9f8e-1250aa511fcd.png" width="440px"></a>
 
 [![JSON response from shearch.me?q=webrtc](https://cloud.githubusercontent.com/assets/205226/9225854/9b1fadda-4103-11e5-9d6a-e7646900571d.png)](http://shearch.me?q=webrtc)
@@ -21,8 +25,6 @@ The transcripts have Google Translate built in, so you can choose read them in a
 [![Developer video transcript](https://cloud.githubusercontent.com/assets/205226/9225860/9fdfd516-4103-11e5-91a6-667949eaca1c.png)](http://simpl.info/s/t/?id=ngBy0H_q-GY,3i9WFgMuKHs)
 
 [![Google Translate French translation of developer video transcript](https://cloud.githubusercontent.com/assets/205226/9225859/9fca0b1e-4103-11e5-8ca1-aa9a5a95127e.png)](http://simpl.info/s/t/?id=ngBy0H_q-GY,3i9WFgMuKHs)
-
-With some minor tweaking you could use the app and API to build search for any YouTube channels that have manually captioned videos — just tweak the channels in the code.
 
 ## Examples
 
