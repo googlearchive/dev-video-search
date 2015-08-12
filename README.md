@@ -1,10 +1,12 @@
 # Search Google developer videos
 
-This is a prototype API and application for searching transcripts and metadata for videos from the [Google Developers](https://www.youtube.com/user/GoogleDevelopers), [Android Developers](https://www.youtube.com/user/androiddevelopers) and [Chrome Developers](https://www.youtube.com/user/ChromeDevelopers) channels:
+This is a prototype API and application for searching transcripts and metadata for videos from the [Google Developers](https://www.youtube.com/user/GoogleDevelopers), [Android Developers](https://www.youtube.com/user/androiddevelopers) and [Chrome Developers](https://www.youtube.com/user/ChromeDevelopers) channels.
 
-[simpl.info/s](https://simpl.info/s)
+**App**: [simpl.info/s](https://simpl.info/s)
 
-[shearch.me?q=webrtc](http://shearch.me?q=webrtc)
+**API**: [shearch.me?q=webrtc](http://shearch.me?q=webrtc)
+
+---
 
 <a href="http://simpl.info/s"><img src="https://cloud.githubusercontent.com/assets/205226/9225876/b89fc926-4103-11e5-9f8e-1250aa511fcd.png" width="440px"></a>
 
